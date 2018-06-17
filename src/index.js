@@ -1,7 +1,5 @@
 import React from "react";
-import {ReactDOM} from 'react-dom';
-import {Router, browserHistory} from 'react-router';
-import {Provider} from 'react-redux';
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 //import configureStore from './store/configureStore';
 //import routes from './routes';
@@ -26,4 +24,4 @@ const App = () => {
     );
   };
   
-ReactDOM.render(<App />, document.getElementById('index'));
+ReactDOM.render(<App />, document.getElementById('app'));
